@@ -1,0 +1,67 @@
+1. index.html (Main Webpage)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creek Lure Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Creek Lure Co.</h1>
+        <p>Handcrafted Lures for the Ultimate Catch</p>
+    </header>
+
+    <section class="hero">
+        <h2>Introducing the Loon Popper</h2>
+        <p>Precision-crafted to land your next trophy fish.</p>
+    </section>
+
+    <section class="lure-showcase">
+        <h2>Our Lures</h2>
+        <div class="lure">
+            <img src="loon-popper.jpg" alt="Loon Popper Lure">
+            <p>The legendary Loon Popper - designed for topwater action.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Creek Lure Co. | <a href="mailto:info@creeklure.com">Contact Us</a></p>
+    </footer>
+</body>
+</html>
+
+
+2. styles.css (Styling)
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+}
+
+.hero {
+    background-color: teal;
+    padding: 40px;
+}
+
+.lure-showcase {
+    padding: 20px;
+}
+
+.lure img {
+    width: 200px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #222;
+    padding: 10px;
+    font-size: 14px;
